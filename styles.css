@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+/* Contenedor principal del encabezado */
+.headline {
+    text-align: center; /* Centrar todo el contenido */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+/* Contenedor del título y subtítulo */
+.title-container {
+    background-color: #2ecc71; /* Fondo verde */
+    padding: 20px; /* Espacio interno */
+    text-align: center; /* Centrar texto */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilos para el título principal */
+.title-container h1 {
+    color: white; /* Texto blanco */
+    font-size: 2.5em; /* Tamaño de fuente */
+    margin: 0; /* Eliminar margen predeterminado */
+}
+
+/* Estilos para el subtítulo */
+.title-container h2 {
+    color: white; /* Texto blanco */
+    font-size: 1.2em; /* Tamaño de fuente */
+    margin: 10px 0 0; /* Margen superior para separar del título */
+}
+
+/* Barra de navegación */
+/* Barra de navegación */
+.navbar {
+    margin-top: 20px; /* Espacio superior */
+    background-color: #34495e; /* Fondo oscuro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.navbar ul {
+    list-style-type: none; /* Quitar viñetas */
+    padding: 0; /* Quitar padding predeterminado */
+    margin: 0; /* Quitar margen predeterminado */
+}
+
+.navbar li {
+    display: inline-block; /* Mostrar elementos en línea */
+    padding: 15px 20px; /* Espacio interno */
+}
+
+.navbar a {
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+/* Contenido principal */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Secciones */
+.intro-section, .schedule-section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h3 {
+    color: #3498db; /* Color azul */
+    font-size: 1.8em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
